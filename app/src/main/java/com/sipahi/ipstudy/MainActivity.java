@@ -76,7 +76,7 @@ public class MainActivity extends Activity {
     private Button button(String label) {
         Button b = new Button(this);
         b.setText(label);
-        b.setTextAllCaps(false);
+        b.setAllCaps(false);
         b.setTextSize(15);
         b.setMinHeight(dp(52));
         return b;
